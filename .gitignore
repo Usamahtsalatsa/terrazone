@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+.vercel
 server/data/*.sqlite
 server/data/*.sqlite-shm
 server/data/*.sqlite-wal
@@ -27,3 +28,5 @@ server/uploads/*
 *.njsproj
 *.sln
 *.sw?
+
+.vercel
