@@ -92,7 +92,7 @@ Untuk menjalankan API saja, gunakan `npm run dev:api`.
 
 1. Buat database Turso/libSQL dan salin URL serta auth token database.
 2. Buat Vercel Blob store.
-3. Hubungkan repository GitHub ke Vercel dengan Root Directory `terrazone-app`.
+3. Hubungkan repository GitHub ke Vercel dengan Root Directory `.` (root repository).
 4. Tambahkan Environment Variables berikut di project Vercel:
 	- `TURSO_DATABASE_URL`
 	- `TURSO_AUTH_TOKEN`
